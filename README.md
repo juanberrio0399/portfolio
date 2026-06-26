@@ -55,8 +55,8 @@ Aplicación web orientada a CFOs para inteligencia fiscal y de cumplimiento, des
 Sistema personal que encuentra y califica oportunidades freelance usando IA.
 **Stack:** `Python` · `AI / LLM`
 
-### ⚙️ TEMU Automation (RPA) — Bot Playwright
-Bot que sube/descarga documentos a un portal logístico emparejando registros por reglas de negocio; elimina trabajo manual repetitivo.
+### ⚙️ Automatización de portal logístico (RPA) — Bot Playwright
+Bot que sube/descarga documentos a un portal logístico de e-commerce emparejando registros por reglas de negocio; elimina trabajo manual repetitivo.
 **Stack:** `Python` · `Playwright`
 
 ### 🎮 Hearthwood — Juego de Roblox (side project)

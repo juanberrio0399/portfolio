@@ -8,9 +8,9 @@
 
 ## Problema
 
-Una operación de courier internacional liquida miles de guías aduaneras al mes. Cada guía debe pagar impuestos a la autoridad tributaria (formulario "690") y, en paralelo, el marketplace (Temu) debe reembolsar esos impuestos. El problema: **nadie sabía, guía por guía, qué estaba pagado y qué estaba pendiente de reembolso.**
+Una operación de courier internacional liquida miles de guías aduaneras al mes. Cada guía debe pagar un impuesto aduanero a la autoridad tributaria y, en paralelo, el marketplace de e-commerce debe reembolsar esos impuestos. El problema: **nadie sabía, guía por guía, qué estaba pagado y qué estaba pendiente de reembolso.**
 
-La razón es técnica: la liquidación identifica cada guía con un número (`guía_hija`), pero el pago a la autoridad y el reembolso del marketplace la identifican con un código distinto (`BG-…`). **Los dos mundos no tenían una llave común.** El control se hacía a mano, por master, en Excel — lento, propenso a error y sin visibilidad real al nivel que importa: la guía individual.
+La razón es técnica: la liquidación identifica cada guía con un número (`guía_hija`), pero el pago a la autoridad y el reembolso del marketplace la identifican con un código distinto. **Los dos mundos no tenían una llave común.** El control se hacía a mano, por master, en Excel — lento, propenso a error y sin visibilidad real al nivel que importa: la guía individual.
 
 ## Contexto
 
@@ -25,9 +25,9 @@ Un pipeline ETL que convierte los Excel del negocio en un **warehouse analítico
 La clave del modelado: **el manifiesto es el único documento que contiene ambos identificadores**, así que se usa como puente para encadenar la liquidación con los pagos:
 
 ```
-liquidaciones.guía_hija → manifiestos → package_no (BG)
-        → consolidado_690  ⇒  pagado a la autoridad
-        → pagos_marketplace ⇒  reembolsado
+liquidaciones.guía_hija → manifiestos → package_no
+        → consolidado_impuesto ⇒  pagado a la autoridad
+        → pagos_marketplace    ⇒  reembolsado
 ```
 
 ## Arquitectura
@@ -49,7 +49,7 @@ liquidaciones.guía_hija → manifiestos → package_no (BG)
         │
         │  warehouse.py  CREATE OR REPLACE VIEW por tipo (DuckDB)
         ▼
-  courierbox.duckdb  ──run_daily──►  Cloudflare R2  ──►  React + DuckDB-WASM (Pages)
+  warehouse.duckdb   ──run_daily──►  Cloudflare R2  ──►  React + DuckDB-WASM (Pages)
         ▲                                                      (dashboard directivo)
         │
    catalog.json (tracker incremental: mtime por archivo → reprocesa solo lo que cambió)

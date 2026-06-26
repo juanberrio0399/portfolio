@@ -28,7 +28,7 @@ Cloud & Data Engineer with 6+ years designing low-cost, end-to-end **serverless 
 
 ### Data / Analytics Engineer — Courier Box · Bogotá · Jul 2025 – Present
 - Designed and operate a **production ETL pipeline** (Python, ~4,100 lines, readers → transforms → writers architecture) that incrementally ingests the business's Excel files, consolidates them into **Parquet** and exposes them as a queryable **DuckDB warehouse**.
-- Built **package-level tax reconciliation** (Colombian customs "690" + Temu refunds), joining 5 sources through the manifest as a bridge to show, per shipment, what is paid and what is pending.
+- Built **package-level tax reconciliation** (customs tax + marketplace refunds), joining 5 sources through the manifest as a bridge to show, per shipment, what is paid and what is pending.
 - Shipped analytics on a **serverless cloud dashboard** (Cloudflare R2 + Pages, React + DuckDB-WASM) that reads fresh data with no server to maintain.
 - Automated the full run **3 times a day** (Task Scheduler + GitHub Actions) with robust logging, catalog-based incremental ingestion and failure isolation.
 

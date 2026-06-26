@@ -21,7 +21,7 @@ Excel (SharePoint)
   data/processed/<type>/data_YYYYMMDD_HHMMSS.parquet
       │  warehouse.py   CREATE OR REPLACE VIEW per type
       ▼
-  courierbox.duckdb  →  Cloudflare R2  →  React + DuckDB-WASM (Cloudflare Pages)
+  warehouse.duckdb   →  Cloudflare R2  →  React + DuckDB-WASM (Cloudflare Pages)
 ```
 
 The incremental catalog (`catalog.json`) stores each Excel's modification date, so only what
@@ -33,11 +33,11 @@ changed gets reprocessed.
 
 | Table                | Key          |
 |----------------------|--------------|
-| `settlements`        | `key_mawb`   |
-| `settlements_temu`   | `key_mawb`   |
+| `settlements_a`      | `key_mawb`   |
+| `settlements_b`      | `key_mawb`   |
 | `manifests`          | `key_mawb`   |
 | `payments`           | `package_no` |
-| `authority_690`      | `package_no` |
+| `authority_tax`      | `package_no` |
 
 The **manifest** is the bridge that carries both identifier systems, enabling the
 package-level (1:1) tax reconciliation chain — see the

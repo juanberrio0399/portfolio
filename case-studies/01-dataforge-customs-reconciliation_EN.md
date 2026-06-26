@@ -8,9 +8,9 @@
 
 ## Problem
 
-An international courier operation clears thousands of customs shipments per month. Each shipment owes tax to the tax authority (form "690") and, in parallel, the marketplace (Temu) must refund that tax. The problem: **nobody knew, shipment by shipment, what was paid and what was still pending refund.**
+An international courier operation clears thousands of customs shipments per month. Each shipment owes a customs tax to the tax authority and, in parallel, the e-commerce marketplace must refund that tax. The problem: **nobody knew, shipment by shipment, what was paid and what was still pending refund.**
 
-The root cause is technical: the settlement file identifies each shipment with one number (`child_waybill`), but the authority payment and the marketplace refund identify it with a different code (`BG-…`). **The two worlds had no common key.** Control was done manually, per master waybill, in Excel — slow, error-prone, and with no real visibility at the level that matters: the individual shipment.
+The root cause is technical: the settlement file identifies each shipment with one number (`child_waybill`), but the authority payment and the marketplace refund identify it with a different code. **The two worlds had no common key.** Control was done manually, per master waybill, in Excel — slow, error-prone, and with no real visibility at the level that matters: the individual shipment.
 
 ## Context
 
@@ -25,9 +25,9 @@ An ETL pipeline that turns the business's Excel files into a **queryable analyti
 The modeling insight: **the manifest is the only document that contains both identifiers**, so it's used as a bridge to chain the settlement to the payments:
 
 ```
-settlements.child_waybill → manifests → package_no (BG)
-        → authority_690_consolidation ⇒  paid to authority
-        → marketplace_payments         ⇒  refunded
+settlements.child_waybill → manifests → package_no
+        → authority_tax_consolidation ⇒  paid to authority
+        → marketplace_payments        ⇒  refunded
 ```
 
 ## Architecture
@@ -49,7 +49,7 @@ settlements.child_waybill → manifests → package_no (BG)
         │
         │  warehouse.py  CREATE OR REPLACE VIEW per type (DuckDB)
         ▼
-  courierbox.duckdb  ──run_daily──►  Cloudflare R2  ──►  React + DuckDB-WASM (Pages)
+  warehouse.duckdb   ──run_daily──►  Cloudflare R2  ──►  React + DuckDB-WASM (Pages)
         ▲                                                    (leadership dashboard)
         │
    catalog.json (incremental tracker: mtime per file → reprocess only what changed)
