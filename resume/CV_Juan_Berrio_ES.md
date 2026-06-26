@@ -1,17 +1,17 @@
 # Juan Berrio
-## Data & Analytics Engineer
+## Cloud & Data Engineer
 
-📞 +57 319 617 3131 · ✉ juandyb99@gmail.com · 🔗 linkedin.com/in/juanberrioo · 💻 github.com/juanberrio0399 · 📍 Bogotá, Colombia (Remoto)
+📞 +57 319 617 3131 · ✉ juandyb99@gmail.com · 🔗 linkedin.com/in/juanberrioo · 💻 github.com/juanberrio0399 · 📍 Bogotá, Colombia (Remoto · GMT-5)
 
 ---
 
-Ingeniero de datos con 6+ años convirtiendo datos operativos y financieros en sistemas de decisión confiables. Diseño y opero **pipelines ETL en producción** (Python, DuckDB, Parquet) con ingesta incremental y orquestación automatizada, y publico la analítica en **arquitecturas cloud de bajo costo** (Cloudflare R2/Pages, DuckDB-WASM, React). Reduje hasta un **60% el tiempo de generación de reportes** y construí la conciliación tributaria guía-a-guía de la operación aduanera de un courier internacional. Experiencia profunda en dominio logístico, aduanero y financiero.
+Ingeniero Cloud & Datos con 6+ años diseñando **plataformas de datos serverless** de bajo costo, de punta a punta. Arquitectura real en la nube (**Cloudflare R2/Pages/Workers, DuckDB-WASM, React**) junto a **pipelines ETL en producción** (Python, DuckDB, Parquet) con ingesta incremental y orquestación automatizada. Diseño con **mentalidad de arquitectura**: separo cómputo, almacenamiento y presentación, prefiero serverless y optimizo costos (sistemas que corren con **~$0 de infraestructura**). Reduje hasta un **60% el tiempo de generación de reportes**. **En camino a Arquitecto de Soluciones Cloud** (estudiando AWS + Ingeniería de Sistemas).
 
 ## Habilidades técnicas
 
+- **Cloud & DevOps:** Cloudflare (R2, Pages, Workers) · Arquitectura serverless · GitHub Actions (CI/CD) · Git · AWS (en formación)
 - **Data Engineering:** ETL Pipelines · Ingesta incremental · Parquet · DuckDB · Data Warehousing · Modelado dimensional (Star Schema) · DAX
 - **Lenguajes & Datos:** Python (Pandas) · SQL · DuckDB SQL
-- **Cloud & DevOps:** Cloudflare (R2, Pages, Workers) · GitHub Actions (CI/CD) · Git · AWS (en formación)
 - **BI & Visualización:** Power BI · Power Query · Excel Avanzado · React + DuckDB-WASM
 - **Automatización / RPA:** Playwright · Power Automate · Windows Task Scheduler
 - **IA & Prompt Engineering:** Integración de LLMs · Prompt engineering · Flujos de trabajo asistidos por IA

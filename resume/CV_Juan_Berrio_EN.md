@@ -1,17 +1,17 @@
 # Juan Berrio
-## Data & Analytics Engineer
+## Cloud & Data Engineer
 
 📞 +57 319 617 3131 · ✉ juandyb99@gmail.com · 🔗 linkedin.com/in/juanberrioo · 💻 github.com/juanberrio0399 · 📍 Bogotá, Colombia (Remote · GMT-5)
 
 ---
 
-Data engineer with 6+ years turning operational and financial data into reliable decision systems. I design and operate **production ETL pipelines** (Python, DuckDB, Parquet) with incremental ingestion and automated orchestration, and ship analytics on **low-cost cloud architectures** (Cloudflare R2/Pages, DuckDB-WASM, React). Cut report generation time by up to **60%** and built the package-level customs tax reconciliation for an international courier operation. Deep domain expertise in logistics, customs and finance.
+Cloud & Data Engineer with 6+ years designing low-cost, end-to-end **serverless data platforms**. Real cloud architecture (**Cloudflare R2/Pages/Workers, DuckDB-WASM, React**) alongside **production ETL pipelines** (Python, DuckDB, Parquet) with incremental ingestion and automated orchestration. I think in **architecture**: separating compute, storage and presentation, choosing serverless and optimizing for cost (systems running on **~$0 infrastructure**). Cut report generation time by up to **60%**. **On the path to Cloud Solutions Architect** (studying AWS + Systems Engineering).
 
 ## Technical Skills
 
+- **Cloud & DevOps:** Cloudflare (R2, Pages, Workers) · Serverless architecture · GitHub Actions (CI/CD) · Git · AWS (in progress)
 - **Data Engineering:** ETL Pipelines · Incremental Ingestion · Parquet · DuckDB · Data Warehousing · Dimensional Modeling (Star Schema) · DAX
 - **Languages & Data:** Python (Pandas) · SQL · DuckDB SQL
-- **Cloud & DevOps:** Cloudflare (R2, Pages, Workers) · GitHub Actions (CI/CD) · Git · AWS (in progress)
 - **BI & Visualization:** Power BI · Power Query · Advanced Excel · React + DuckDB-WASM
 - **Automation / RPA:** Playwright · Power Automate · Windows Task Scheduler
 - **AI & Prompt Engineering:** LLM integration · Prompt engineering · AI-assisted workflows
