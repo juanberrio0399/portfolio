@@ -51,10 +51,6 @@ ETL en producción (~4.100 líneas, arquitectura `readers → transforms → wri
 Aplicación web orientada a CFOs para inteligencia fiscal y de cumplimiento, desplegada en **Cloudflare Pages**.
 **Stack:** `JavaScript` · `Vite` · `Cloudflare Pages`
 
-### 🤖 Oportunia — Prospección freelance asistida por IA
-Sistema personal que encuentra y califica oportunidades freelance usando IA.
-**Stack:** `Python` · `AI / LLM`
-
 ### ⚙️ Automatización de portal logístico (RPA) — Bot Playwright
 Bot que sube/descarga documentos a un portal logístico de e-commerce emparejando registros por reglas de negocio; elimina trabajo manual repetitivo.
 **Stack:** `Python` · `Playwright`
