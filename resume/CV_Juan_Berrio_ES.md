@@ -26,7 +26,7 @@ Ingeniero Cloud & Datos con 6+ años diseñando **plataformas de datos serverles
 
 ## Experiencia profesional
 
-### Data / Analytics Engineer — Courier Box · Bogotá · Jul 2025 – Presente
+### Cloud & Data Engineer — Courier Box · Bogotá · Jul 2025 – Presente
 - Diseñé y opero un **pipeline ETL en producción** (Python, ~4.100 líneas, arquitectura readers → transforms → writers) que ingiere de forma incremental los Excel del negocio, los consolida en **Parquet** y los expone como **warehouse DuckDB** consultable.
 - Construí la **conciliación tributaria guía-a-guía** (impuesto aduanero + reembolsos del marketplace) cruzando 5 fuentes vía el manifiesto como puente, dando visibilidad por guía de qué está pagado y qué está pendiente.
 - Publiqué la analítica en un **dashboard cloud serverless** (Cloudflare R2 + Pages, React + DuckDB-WASM) que lee datos al día sin servidor que mantener.
