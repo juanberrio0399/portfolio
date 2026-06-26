@@ -1,0 +1,10 @@
+# Documentos de trabajo internos — NO publicar
+linkedin/
+SETUP.md
+
+# Mantener los PDFs del CV (se commitean), ignorar temporales
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+~$*
