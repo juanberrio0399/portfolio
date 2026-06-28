@@ -63,6 +63,8 @@ Juego cooperativo de supervivencia construido desde cero por fases — arquitect
 
 ## 📈 Currently learning
 
+✅ **AWS Cloud Practitioner Essentials** completed (AWS Training & Certification · Jun 2026) — next: the Cloud Practitioner certification exam.
+
 `AWS (Cloud Practitioner → Solutions Architect)` · `Systems Engineering` · `English → B2` · `dbt`
 
 ---

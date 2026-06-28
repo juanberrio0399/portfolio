@@ -55,9 +55,10 @@ Ingeniero Cloud & Datos con 6+ años diseñando **plataformas de datos serverles
 
 ## Certificaciones y formación
 
+- **AWS Cloud Practitioner Essentials** — AWS Training & Certification · jun. 2026
 - **Python Programming (Niveles 0–2)** — Code Avengers (90–93%)
 - Herramientas Ofimáticas, Informática y Tecnologías TIC — SENA
-- **AWS Data** — en formación
+- **AWS Certified Cloud Practitioner (CLF-C02)** — en preparación
 
 ## Idiomas
 

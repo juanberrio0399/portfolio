@@ -55,9 +55,10 @@ Cloud & Data Engineer with 6+ years designing low-cost, end-to-end **serverless 
 
 ## Certifications & Training
 
+- **AWS Cloud Practitioner Essentials** — AWS Training & Certification · Jun 2026
 - **Python Programming (Levels 0–2)** — Code Avengers (90–93%)
 - Office tools, IT and ICT — SENA
-- **AWS Data** — in progress
+- **AWS Certified Cloud Practitioner (CLF-C02)** — in preparation
 
 ## Languages
 
