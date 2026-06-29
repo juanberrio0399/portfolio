@@ -49,7 +49,7 @@ Cloud & Data Engineer with 6+ years designing low-cost, end-to-end **serverless 
 
 ## Education
 
-- **Systems Engineering** (in progress) — Uniminuto · expected 2027
+- **Systems Engineering** (in progress) — Corporación Universitaria Americana
 - **Software Development Technician** — Fundetec · expected 2026
 - **Administrative Assistant Technician** — SENA · 2016
 

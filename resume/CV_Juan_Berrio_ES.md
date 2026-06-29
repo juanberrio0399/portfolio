@@ -49,7 +49,7 @@ Ingeniero Cloud & Datos con 6+ años diseñando **plataformas de datos serverles
 
 ## Educación
 
-- **Ingeniería de Sistemas** (en curso) — Uniminuto · est. 2027
+- **Ingeniería de Sistemas** (en curso) — Corporación Universitaria Americana
 - **Técnico en Desarrollo** — Fundetec · est. 2026
 - **Técnico Auxiliar Administrativo** — SENA · 2016
 
