@@ -73,6 +73,7 @@ Juego cooperativo de supervivencia construido desde cero por fases — arquitect
 
 - [CV — Español (PDF)](resume/CV_Juan_Berrio_ES.pdf) · [DOCX](resume/CV_Juan_Berrio_ES.docx)
 - [CV — English (PDF)](resume/CV_Juan_Berrio_EN.pdf) · [DOCX](resume/CV_Juan_Berrio_EN.docx)
+- **[Portafolio de proyectos — Español (PDF)](resume/Juan_Berrio_Portfolio_ES.pdf)** · **[Project Portfolio — English (PDF)](resume/Juan_Berrio_Portfolio_EN.pdf)**
 
 ## 📬 Contact
 
