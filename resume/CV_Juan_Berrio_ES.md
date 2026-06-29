@@ -5,7 +5,7 @@
 
 ---
 
-Ingeniero Cloud & Datos con 6+ años diseñando **plataformas de datos serverless** de bajo costo, de punta a punta. Arquitectura real en la nube (**Cloudflare R2/Pages/Workers, DuckDB-WASM, React**) junto a **pipelines ETL en producción** (Python, DuckDB, Parquet) con ingesta incremental y orquestación automatizada. Diseño con **mentalidad de arquitectura**: separo cómputo, almacenamiento y presentación, prefiero serverless y optimizo costos (sistemas que corren con **~$0 de infraestructura**). Reduje hasta un **60% el tiempo de generación de reportes**. **En camino a Arquitecto de Soluciones Cloud** (estudiando AWS + Ingeniería de Sistemas).
+Ingeniero Cloud & Datos con 6+ años diseñando **plataformas de datos serverless** de bajo costo, de punta a punta. Actualmente proceso **más de 25M de registros** en producción (creciendo ~2M/mes, rumbo a 35M+ en 2026). Arquitectura real en la nube (**Cloudflare R2/Pages/Workers, DuckDB-WASM, React**) junto a **pipelines ETL en producción** (Python, DuckDB, Parquet) con ingesta incremental y orquestación automatizada. Diseño con **mentalidad de arquitectura**: separo cómputo, almacenamiento y presentación, prefiero serverless y optimizo costos (sistemas que corren con **~$0 de infraestructura**). Reduje hasta un **60% el tiempo de generación de reportes**. **En camino a Arquitecto de Soluciones Cloud** (estudiando AWS + Ingeniería de Sistemas).
 
 ## Habilidades técnicas
 

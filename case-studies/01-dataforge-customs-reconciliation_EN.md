@@ -15,7 +15,7 @@ The root cause is technical: the settlement file identifies each shipment with o
 ## Context
 
 - **Sources:** 5 different business-generated Excel files (settlements, manifests, marketplace payments, authority-payment consolidation), continuously updated in SharePoint.
-- **Volume:** millions of accumulated records; thousands of new shipments per run.
+- **Volume:** 25M+ accumulated records (growing ~2M/month); thousands of new shipments per run.
 - **Constraints:** zero infrastructure budget, had to run on the operation's PC without disrupting daily work, and the result had to be queryable by leadership with nothing to install.
 
 ## Solution

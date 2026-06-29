@@ -5,7 +5,7 @@
 
 ---
 
-Cloud & Data Engineer with 6+ years designing low-cost, end-to-end **serverless data platforms**. Real cloud architecture (**Cloudflare R2/Pages/Workers, DuckDB-WASM, React**) alongside **production ETL pipelines** (Python, DuckDB, Parquet) with incremental ingestion and automated orchestration. I think in **architecture**: separating compute, storage and presentation, choosing serverless and optimizing for cost (systems running on **~$0 infrastructure**). Cut report generation time by up to **60%**. **On the path to Cloud Solutions Architect** (studying AWS + Systems Engineering).
+Cloud & Data Engineer with 6+ years designing low-cost, end-to-end **serverless data platforms**. Currently processing **25M+ records** in production (growing ~2M/month, toward 35M+ in 2026). Real cloud architecture (**Cloudflare R2/Pages/Workers, DuckDB-WASM, React**) alongside **production ETL pipelines** (Python, DuckDB, Parquet) with incremental ingestion and automated orchestration. I think in **architecture**: separating compute, storage and presentation, choosing serverless and optimizing for cost (systems running on **~$0 infrastructure**). Cut report generation time by up to **60%**. **On the path to Cloud Solutions Architect** (studying AWS + Systems Engineering).
 
 ## Technical Skills
 

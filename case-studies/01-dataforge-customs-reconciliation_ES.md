@@ -15,7 +15,7 @@ La razón es técnica: la liquidación identifica cada guía con un número (`gu
 ## Contexto
 
 - **Fuentes:** 5 archivos Excel distintos generados por el negocio (liquidaciones, manifiestos, pagos del marketplace, consolidado de pagos a la autoridad), actualizados continuamente en SharePoint.
-- **Volumen:** millones de registros acumulados; miles de guías nuevas por corrida.
+- **Volumen:** más de 25M de registros acumulados (creciendo ~2M/mes); miles de guías nuevas por corrida.
 - **Restricciones:** presupuesto cero para infraestructura, debía correr en el PC de la operación sin afectar el trabajo diario, y el resultado tenía que ser consultable por dirección sin instalar nada.
 
 ## Solución

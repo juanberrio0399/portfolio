@@ -16,9 +16,9 @@ Serverless data platforms, ETL pipelines and cloud dashboards that turn messy bu
 
 ## 👋 About / Sobre mí
 
-**EN** — Cloud & Data Engineer with 6+ years turning operational and financial data into systems that run themselves. I think in architecture: separating compute, storage and presentation, choosing serverless over servers, and optimizing for cost (some systems run on ~$0 infrastructure). Currently studying **AWS** and **Systems Engineering** on the path to **Cloud Solutions Architect**.
+**EN** — Cloud & Data Engineer with 6+ years turning operational and financial data into systems that run themselves. Currently processing **25M+ records** in production (growing ~2M/month, toward 35M+ in 2026). I think in architecture: separating compute, storage and presentation, choosing serverless over servers, and optimizing for cost (some systems run on ~$0 infrastructure). Currently studying **AWS** and **Systems Engineering** on the path to **Cloud Solutions Architect**.
 
-**ES** — Ingeniero Cloud & Datos con 6+ años convirtiendo datos operativos y financieros en sistemas que se operan solos. Diseño con mentalidad de arquitectura: separo cómputo, almacenamiento y presentación, prefiero serverless y optimizo costos (algunos sistemas corren con ~$0 de infraestructura). Estudiando **AWS** e **Ingeniería de Sistemas**, en camino a **Arquitecto de Soluciones Cloud**.
+**ES** — Ingeniero Cloud & Datos con 6+ años convirtiendo datos operativos y financieros en sistemas que se operan solos. Actualmente proceso **más de 25M de registros** en producción (creciendo ~2M/mes, rumbo a 35M+ en 2026). Diseño con mentalidad de arquitectura: separo cómputo, almacenamiento y presentación, prefiero serverless y optimizo costos (algunos sistemas corren con ~$0 de infraestructura). Estudiando **AWS** e **Ingeniería de Sistemas**, en camino a **Arquitecto de Soluciones Cloud**.
 
 ---
 
